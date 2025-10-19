@@ -87,7 +87,7 @@ export default function Modal({ onClose, options }) {
             <input
               value={segmentName}
               onChange={e => setSegmentName(e.target.value)}
-              placeholder="e.g. last_10_days_blog_visits"
+              placeholder="Enter segment name"
             />
           </label>
 
